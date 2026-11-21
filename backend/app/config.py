@@ -1,4 +1,5 @@
-import os\nimport secrets
+import os
+import secrets
 from pathlib import Path
 from pydantic_settings import BaseSettings
 from typing import Optional
