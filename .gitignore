@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend dependencies and generated files
+node_modules/
+.vite/
+*.tsbuildinfo
+*.map
+
+# Local configuration, credentials, and runtime data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.db
+*.sqlite
+*.sqlite3
+
+# Local executables and logs
+cloudflared.exe
+*.log
